@@ -13,6 +13,7 @@ public class DatabaseHelper {
 	private static final String PASSWORD = "ShangaiShanua@2025H";
 
 	public static String fetchItemsAsJson() {
+		
 		StringBuilder json = new StringBuilder();
 		json.append("[");
 
